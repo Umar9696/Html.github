@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Usernamevalidation</title>
+</head>
+<body>
+    <form action="userMessage.html">
+
+        
+        
+        <h2> Enter Your Details</h2> 
+
+        <label for="">Salutation</label>
+        <select name="sal" id="sal">
+            <option value="Select">Select</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Dr.">Dr.</option>
+            
+
+
+        </select>
+
+        <br><br>
+
+        <label for="Fname">FirstName</label>
+        <input type="text" required name="fname" id="fname" pattern="[A-Za-z]{3,7}">
+            <br><br>
+        <label for="Lname">LastName</label>
+        <input type="text" required name="lname" id="lname" pattern="[A-Za-z]{3,7}">
+        <br><br>
+
+        <label for="DOB">DOB</label>
+        <input type="date" required name="dob" id="dob">
+        <br><br>
+
+        <label for="Gender">Gender</label>
+        <input type="radio" id="Male" name="dept">
+        <label for="">Male</label>
+
+        <input type="radio" id="Female" name="dept">
+        <label for="">Female</label>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" required name="email" id="email" >
+            <br><br>
+        <label for="contact">Phone no</label>
+        &nbsp;&nbsp;
+        <input type="text" required name="contact" id="contact" pattern="[6,9]{1}[0-9]{9}">
+            <br><br>
+        <label for="Adress">Adress</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <!--HTML CSS-->
+        <label for="Branch">Branch</label>
+        <input type="radio" id="cse" name="dept">
+        <label for="">CSE</label>
+
+        <input type="radio" id="civil" name="dept">
+        <label for="">Civil</label>
+
+        <input type="radio" id="ec" name="dept">
+        <label for="">EC</label>
+
+        <input type="radio" id="EEE" name="dept">
+        <label for="">EEE</label>
+
+        <input type="radio" id="mechanical" name="dept">
+        <label for="">Mech</label>
+        <br><br>
+
+        <input type="submit" >
+        </form>
+    
+    
+</body>
+</html>
